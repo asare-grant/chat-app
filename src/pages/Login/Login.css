@@ -1,6 +1,7 @@
 .login{
     min-height: 100vh;
-    background: url(/background.png) no-repeat;
+    /* background:  url(/background.png) no-repeat; */
+    background: linear-gradient(rgba(78, 0, 106, 0.774),rgba(55, 4, 73, 0.719)), url(/background.png) no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
@@ -24,11 +25,13 @@
     padding: 8px 10px;
     border: 1px solid #c9c9c9;
     border-radius: 4px;
-    outline: #077eff;
+    /* outline: #077eff; */
+    outline: rgba(77, 0, 106, 0.902);
 }
 .login-form button{
     padding: 10px;
-    background-color: #077eff;
+    /* background-color: #077eff; */
+    background: rgba(77, 0, 106, 0.902);
     color: #fff;
     font-size: 16px;
     border: none;
@@ -52,7 +55,8 @@
 }
 .login-toggle span{
     font-weight: 500;
-    color: #077eff;
+    /* color: #077eff; */
+    color: rgba(77, 0, 106, 0.902);
     cursor: pointer;
 }
 

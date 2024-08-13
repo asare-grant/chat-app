@@ -1,6 +1,9 @@
 .chat{
     min-height: 100vh;
-    background: linear-gradient(#394be7,#383699);
+    /* background: linear-gradient(#394be7,#383699); */
+    /* background: linear-gradient(rgba(77, 0, 106, 0.902),rgba(55, 4, 73, 0.902)); */
+    background: linear-gradient(rgba(78, 0, 106, 0.774),rgba(55, 4, 73, 0.719)), url(/background.png) no-repeat;
+    background-size: cover;
     display: grid;
     place-items: center;
 }

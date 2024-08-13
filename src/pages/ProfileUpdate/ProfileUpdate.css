@@ -1,6 +1,7 @@
 .profile{
     min-height: 100vh;
-    background: url(/background.png) no-repeat;
+    /* background: url(/background.png) no-repeat; */
+    background: linear-gradient(rgba(78, 0, 106, 0.774),rgba(55, 4, 73, 0.719)), url(/background.png) no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -44,13 +45,15 @@
     padding: 10px;
     min-width: 300px;
     border: 1px solid #c9c9c9;
-    outline-color: #077eff;
+    /* outline-color: #077eff; */
+    outline-color: rgba(77, 0, 106, 0.902);
 }
 .profile form button{
     border: none;
     color: #fff;
     cursor: pointer;
-    background-color: #077eff;
+    /* background-color: #077eff; */
+    background-color: rgba(77, 0, 106, 0.902);
     padding: 8px;
     font-size: 16px;
 }
