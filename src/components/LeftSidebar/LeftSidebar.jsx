@@ -107,7 +107,7 @@ const LeftSidebar = () => {
       setChatVisible(true);
     } catch (error) {
       // toast.error(error.message)
-      console.log(error)
+      console.error(error)
     }
   }
 
