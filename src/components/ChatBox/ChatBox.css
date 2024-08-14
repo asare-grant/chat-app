@@ -89,6 +89,7 @@
 }
 .r-msg .msg{
     border-radius: 8px 8px 8px 0;
+    background-color: #1d9718;
 }
 .s-msg div, .r-msg div{
     text-align: center;

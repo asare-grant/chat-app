@@ -36,7 +36,7 @@ const Login = () => {
             <button type='submit'>Login now</button>
             }
             <div className="login-term">
-                <input type="checkbox" />
+                <input type="checkbox" required/>
                 <p>Agree to the terms of use & privacy policy.</p>
             </div>
             <div className="login-forgot">
