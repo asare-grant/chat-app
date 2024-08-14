@@ -4,6 +4,9 @@ import help_icon from './help_icon.png'
 import logo_icon from './logo_icon.png'
 import logo_big from './logo_big.png'
 import logo from './logo.png'
+import express_logo from './express-logo.png'
+import express_load from './express-load.png'
+import express_logo_top from './express-top-logo.png'
 import pic1 from './pic1.png'
 import pic2 from './pic2.png'
 import pic3 from './pic3.png'
@@ -23,6 +26,9 @@ const assets = {
     logo_big,
     logo_icon,
     logo,
+    express_logo,
+    express_logo_top,
+    express_load,
     pic1,
     pic2,
     pic3,

@@ -22,7 +22,7 @@ const Login = () => {
 
   return (
     <div className="login">
-        <img src={assets.logo_big} alt="" className="logo"/>
+        <img src={assets.express_logo} alt="" className="logo"/>
         <form onSubmit={onSubmitHandler} className="login-form">
             <h2>{currState}</h2>
             {currState === "Sign up" &&

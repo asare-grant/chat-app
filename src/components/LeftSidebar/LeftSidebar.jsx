@@ -128,7 +128,7 @@ const LeftSidebar = () => {
     <div className={`ls ${chatVisible? "hidden": ""}`}>
       <div className="ls-top">
         <div className="ls-nav">
-          <img src={assets.logo} className="logo" alt="" />
+          <img src={assets.express_logo_top} className="logo" alt="" />
           <div className="menu">
             <img src={assets.menu_icon} alt="" />
             <div className="sub-menu">
