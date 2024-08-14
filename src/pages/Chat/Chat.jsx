@@ -4,6 +4,7 @@ import LeftSidebar from '../../components/LeftSidebar/LeftSidebar'
 import ChatBox from '../../components/ChatBox/ChatBox'
 import RightSidebar from '../../components/RightSidebar/RightSidebar'
 import { AppContext } from '../../context/AppContext'
+import assets from '../../assets/assets'
 
 const Chat = () => {
 
@@ -20,7 +21,10 @@ const Chat = () => {
     <div className="chat">
       {
         loading
-        ?<p className='loading'>Loading...</p>
+        ?<div className="loading">
+          <img src={assets.logo_icon} alt="" />
+          <p className='loading'>Loading Express App <br/> please wait...</p>
+        </div>
         :<div className="chat-container">
         <LeftSidebar />
         <ChatBox />

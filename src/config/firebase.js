@@ -29,7 +29,7 @@ const signup = async (username,email,password) => {
             email,
             name:"",
             avatar:"",
-            bio:"Hey there, I am using chat app",
+            bio:"Hey there, I am using Express App",
             lastSeen:Date.now()
         })
         await setDoc(doc(db,"chats",user.uid), {
