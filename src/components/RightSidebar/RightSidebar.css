@@ -48,8 +48,10 @@
 }
 .rs-media div img{
     width: 60px;
+    height: 50px;
     border-radius: 4px;
     cursor: pointer;
+    object-fit: cover;
 }
 .rs button{
     position: absolute;

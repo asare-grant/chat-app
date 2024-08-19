@@ -23,7 +23,7 @@ const Chat = () => {
         loading
         ?<div className="loading">
           <img src={assets.express_load} alt="" />
-          <p className='loading'>Loading Express App <br/> please wait...</p>
+          <p className='loading'>Loading ExpressChat <br/> please wait...</p>
         </div>
         :<div className="chat-container">
         <LeftSidebar />
